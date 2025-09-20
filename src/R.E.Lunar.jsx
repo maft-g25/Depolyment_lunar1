@@ -48,3 +48,4 @@ function LunarApp() {
 export default LunarApp;
 
 // Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+//  npm run dev

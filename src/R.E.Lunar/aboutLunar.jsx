@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import styles from './style.module.css'
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
 
 function LAbout() {
     return(
