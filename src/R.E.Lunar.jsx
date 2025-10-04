@@ -49,3 +49,7 @@ export default LunarApp;
 
 // Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 //  npm run dev
+// to push any changes you made to Git
+//1st :   git add .
+//      git commit -m 'any info about changes'
+//      git push
