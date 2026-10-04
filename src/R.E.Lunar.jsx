@@ -4,6 +4,7 @@ import L_Nav from "./R.E.Lunar/navbar";
 import CardLunar from "./R.E.Lunar/CardLunar";
 import styles from './R.E.Lunar/style.module.css'
 import LAbout from "./R.E.Lunar/aboutLunar";
+import LServices from "./R.E.Lunar/services";
 import LData from './LunarData';
 import Footer from "./R.E.Lunar/footerL";
 
@@ -37,6 +38,11 @@ function LunarApp() {
                     About US
                 </h2>
                 <LAbout />
+                <h2 className={styles.card_container_h2}>
+                    Our Services 
+                </h2>
+                <LServices />
+
             </div>
             {footer}
 

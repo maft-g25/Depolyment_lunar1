@@ -16,9 +16,9 @@ function L_Nav() {
                         </a>
                     </li>
                     <li className={styles.nav_item}>
-                        <a className={styles.nav_link} href="#">
-                            <img src="user-regular.svg" /> 
-                            <a href="aboutref"> <div className={styles.nav_txt}> About </div> </a>
+                        <a className={styles.nav_link} href="#aboutref">
+                            <img src="user-regular.svg" alt="User Icon"/> 
+                             <div className={styles.nav_txt}> About </div>
                         </a>
                     </li>
                     {/* <li className={styles.nav_item}>
@@ -40,9 +40,10 @@ function L_Nav() {
                         </a>
                     </li> */}
                     <li className={styles.nav_item}>
-                        <a className={styles.nav_link} href="#">
-                            <img src="phone-solid.svg "/>
-                            <a href="contact1"> <div className={styles.nav_txt}> Contact </div> </a> 
+                        {/* <a className={`${styles.nav_link} flex items-center gap-2`} href="#contact1"> */}
+                        <a className={styles.nav_link} href="#contact1">
+                          <img src="phone-solid.svg" alt="Contact Icon" />
+                          <div className={styles.nav_txt}>Contact</div>
                         </a>
                     </li>
                 

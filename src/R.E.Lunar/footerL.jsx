@@ -29,7 +29,7 @@ function Footer(props) {
                         <p> {props.phone} </p>
                     </div>
                     <div>
-                        &copy;2025 Lunar - All trademarks are the property of their respective owners.
+                        &copy;2026 Lunar - All trademarks are the property of their respective owners.
                     </div>
                 </div>
             
